@@ -1,0 +1,10 @@
+YUNIOR OS — paquete PWA
+
+Contenido: index.html, app.js, manifest.webmanifest, sw.js, icon.svg.
+
+Para instalar en Android:
+1. Sube todos los archivos a un hosting HTTPS (por ejemplo GitHub Pages, Netlify o tu propio servidor).
+2. Abre la dirección publicada en Chrome Android.
+3. Usa el menú ⋮ > Instalar aplicación o Añadir a pantalla de inicio.
+
+El service worker requiere HTTPS (o localhost durante desarrollo). Los datos se guardan localmente en el navegador de ese dispositivo. Usa “Exportar respaldo JSON” con regularidad; el archivo de respaldo se guarda donde elijas. No hay sincronización en la nube ni protección por contraseña en esta versión.
